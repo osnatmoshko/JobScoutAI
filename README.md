@@ -62,5 +62,5 @@
 
 1. **שיבוט / הורדת הפרויקט:**
    ```bash
-   git clone <REPOSITORY_URL>
+   git clone [https://github.com/osnatmoshko/JobScoutAI.git](https://github.com/osnatmoshko/JobScoutAI.git)
    cd JobScoutAI
