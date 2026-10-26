@@ -22,8 +22,8 @@
 
 האג'נט מציג ממשק Streamlit מעוצב וקומפקטי עם משרות ממוינות בסדר יורד לפי ציון התאמה, קישורים ישירים למודעות המקוריות, ותהליך קבלת החלטות שקוף (Trace).
 
-### מסך תוצאות ממוינות לפי ציון התאמה:
-![תוצאות הסוכן](screenshots/results.png)
+### מסך תוצאות ממוינות לפי ציון התאמה
+
 
 ### תהליך קבלת ההחלטות וה-Trace של הסוכן:
 ![תהליך קבלת החלטות](screenshots/trace.png)
@@ -64,5 +64,5 @@
 
 1. **שיבוט / הורדת הפרויקט:**
    ```bash
-   git clone <REPOSITORY_URL>
+   git clone(https://github.com/osnatmoshko/JobScoutAI.git)
    cd JobScoutAI
