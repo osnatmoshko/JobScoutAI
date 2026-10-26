@@ -22,22 +22,17 @@
 
 האג'נט מציג ממשק Streamlit מעוצב וקומפקטי עם משרות ממוינות בסדר יורד לפי ציון התאמה, קישורים ישירים למודעות המקוריות, ותהליך קבלת החלטות שקוף.
 
-<<<<<<< HEAD
-### מסך חיפוש ופלט תוצאות (Backend / Full Stack):
+### מסך חיפוש ופלט תוצאות:
 | חיפוש משרת Backend | חיפוש משרת Full Stack |
 | :---: | :---: |
-| ![חיפוש Backend](screenshots/חיפוש%20משרה%20backend.png) | ![חיפוש Full Stack](screenshots/חיפוש%20משרה%20fullstack.png) |
-=======
-### מסך תוצאות ממוינות לפי ציון התאמה
-
->>>>>>> c3c0b125c82e152d21e582e4e262248845e3fcc7
+| ![חיפוש Backend](screenshots/backend_search.png) | ![חיפוש Full Stack](screenshots/fullstack_search.png) |
 
 | תוצאות משרות Backend | תוצאות משרות Full Stack |
 | :---: | :---: |
-| ![תוצאות Backend](screenshots/תוצאות%20backend.png) | ![תוצאות Full Stack](screenshots/תוצאות%20fullstack.png) |
+| ![תוצאות Backend](screenshots/backend_results.png) | ![תוצאות Full Stack](screenshots/fullstack_results.png) |
 
 ### תהליך קבלת החלטות וחשיבה של הסוכן (Trace):
-![תהליך חשיבה](screenshots/תהליך%20חשיבה.png)
+![תהליך חשיבה](screenshots/thinking_trace.png)
 
 ---
 
@@ -57,15 +52,7 @@
 
 ---
 
-## 💡 4. הערה לגבי דיוק הניתוח ומגבלת אסימונים (Tokens)
-
-- **אופטימיזציה של צריכת טוקנים:** כדי לשמור על יעילות, מהירות תגובה ולמנוע חריגה ממכסות ה-API (Rate Limits), האג'נט מעביר למודל ה-AI ניתוח מתומצת של המשרות המובילות בכל סבב ולא את הטקסט המלא של מאות מודעות.
-- **שילוב מנוע היברידי (Python + LLM):** סינון הליבה וחישוב ציוני ההתאמה הראשוניים מבוצעים דטרמיניסטית ב-Python, בעוד שמודל ה-LLM (Groq) אמון על תהליך קבלת ההחלטות, הרחבת החיפוש והערכת ההתאמה האיכותית.
-- **הסתמכות על APIs ציבוריים:** המקורות הזמינים בפרויקט (`Remotive`, `Arbeitnow`) הם פומביים ומתמקדים בעיקר במשרות גלובליות ומרחוק (Remote / Europe).
-
----
-
-## 🛠️ 5. הוראות להתקנה והרצה (Setup & Execution)
+## 🛠️ 4. הוראות להתקנה והרצה (Setup & Execution)
 
 ### דרישות מוקדמות
 - **Python 3.10** ומעלה.
@@ -75,10 +62,5 @@
 
 1. **שיבוט / הורדת הפרויקט:**
    ```bash
-<<<<<<< HEAD
-   git clone https://github.com/osnatmoshko/JobScoutAI.git
+   git clone <REPOSITORY_URL>
    cd JobScoutAI
-=======
-   git clone(https://github.com/osnatmoshko/JobScoutAI.git)
-   cd JobScoutAI
->>>>>>> c3c0b125c82e152d21e582e4e262248845e3fcc7
