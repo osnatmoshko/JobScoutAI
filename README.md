@@ -20,13 +20,19 @@
 
 ## 🖼️ 2. הדגמת ריצת הסוכן (צילומי מסך)
 
-האג'נט מציג ממשק Streamlit מעוצב וקומפקטי עם משרות ממוינות בסדר יורד לפי ציון התאמה, קישורים ישירים למודעות המקוריות, ותהליך קבלת החלטות שקוף (Trace).
+האג'נט מציג ממשק Streamlit מעוצב וקומפקטי עם משרות ממוינות בסדר יורד לפי ציון התאמה, קישורים ישירים למודעות המקוריות, ותהליך קבלת החלטות שקוף.
 
-### מסך תוצאות ממוינות לפי ציון התאמה:
-![תוצאות הסוכן](screenshots/results.png)
+### מסך חיפוש ופלט תוצאות (Backend / Full Stack):
+| חיפוש משרת Backend | חיפוש משרת Full Stack |
+| :---: | :---: |
+| ![חיפוש Backend](screenshots/חיפוש%20משרה%20backend.png) | ![חיפוש Full Stack](screenshots/חיפוש%20משרה%20fullstack.png) |
 
-### תהליך קבלת ההחלטות וה-Trace של הסוכן:
-![תהליך קבלת החלטות](screenshots/trace.png)
+| תוצאות משרות Backend | תוצאות משרות Full Stack |
+| :---: | :---: |
+| ![תוצאות Backend](screenshots/תוצאות%20backend.png) | ![תוצאות Full Stack](screenshots/תוצאות%20fullstack.png) |
+
+### תהליך קבלת החלטות וחשיבה של הסוכן (Trace):
+![תהליך חשיבה](screenshots/תהליך%20חשיבה.png)
 
 ---
 
@@ -64,5 +70,5 @@
 
 1. **שיבוט / הורדת הפרויקט:**
    ```bash
-   git clone <REPOSITORY_URL>
+   git clone https://github.com/osnatmoshko/JobScoutAI.git
    cd JobScoutAI
