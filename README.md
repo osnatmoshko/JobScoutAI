@@ -22,10 +22,15 @@
 
 האג'נט מציג ממשק Streamlit מעוצב וקומפקטי עם משרות ממוינות בסדר יורד לפי ציון התאמה, קישורים ישירים למודעות המקוריות, ותהליך קבלת החלטות שקוף.
 
+<<<<<<< HEAD
 ### מסך חיפוש ופלט תוצאות (Backend / Full Stack):
 | חיפוש משרת Backend | חיפוש משרת Full Stack |
 | :---: | :---: |
 | ![חיפוש Backend](screenshots/חיפוש%20משרה%20backend.png) | ![חיפוש Full Stack](screenshots/חיפוש%20משרה%20fullstack.png) |
+=======
+### מסך תוצאות ממוינות לפי ציון התאמה
+
+>>>>>>> c3c0b125c82e152d21e582e4e262248845e3fcc7
 
 | תוצאות משרות Backend | תוצאות משרות Full Stack |
 | :---: | :---: |
@@ -70,5 +75,10 @@
 
 1. **שיבוט / הורדת הפרויקט:**
    ```bash
+<<<<<<< HEAD
    git clone https://github.com/osnatmoshko/JobScoutAI.git
    cd JobScoutAI
+=======
+   git clone(https://github.com/osnatmoshko/JobScoutAI.git)
+   cd JobScoutAI
+>>>>>>> c3c0b125c82e152d21e582e4e262248845e3fcc7
