@@ -18,7 +18,7 @@ from urllib.parse import urlencode
 import requests
 from groq import Groq
 
-GROQ_MODEL = os.getenv("GROQ_MODEL", "llama-3.1-8b-instant")
+GROQ_MODEL = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
 MIN_GOOD_JOBS = 4
 MAX_ROUNDS_HARD_LIMIT = 3
 REQUEST_TIMEOUT = 20
